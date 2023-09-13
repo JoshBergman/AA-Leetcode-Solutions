@@ -5,7 +5,7 @@
 # - is to check if n-1 exists, therefore you know that n is not the start of a sequence, saving you from counting every number
 
 class Solution:
-    def longestConsecutive(self, nums: List[int]) -> int:
+    def longestConsecutive(self, nums) -> int:
         numSet = set(nums)
         longest = 0
 
