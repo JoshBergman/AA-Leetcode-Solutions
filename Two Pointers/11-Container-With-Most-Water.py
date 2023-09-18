@@ -5,7 +5,7 @@
 
 # worst case of O(N) beats 99.5% of python submissions
 
-def maxArea(self, height: List[int]) -> int:
+def maxArea(self, height: [int]) -> int:
         largestArea = 0
         left = 0
         right = len(height) - 1
